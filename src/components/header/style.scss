@@ -1,0 +1,17 @@
+@import "/src/mixins";
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+
+    img {
+        height: 4em;
+    }
+}
+
+@include breakpoint(sm) {
+    .header {
+        flex-direction: row;
+    }
+}

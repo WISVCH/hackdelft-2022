@@ -1,0 +1,31 @@
+{
+    "name": "hackdelft-2022",
+    "version": "0.1.0",
+    "description": "HackDelft informational website for the 21/22 edition",
+    "repository": "git@github.com:WISVCH/hackdelft-2022.git",
+    "author": "Dany Sluijk <me@dany.dev>",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "license": "MIT",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "parcel -p 8000 ./src/index.html",
+        "build": "yarn clear-cache && parcel build ./src/index.html --reporter parcel-reporter-prerender",
+        "serve": "yarn build && http-server ./dist -p 8000 -g -b",
+        "clear-cache": "rm -rf dist .parcel-cache parcel-bundle-reports"
+    },
+    "dependencies": {
+        "@fortawesome/free-brands-svg-icons": "^5.15.4",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "preact": "^10.6.2"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.0.1",
+        "autoprefixer": "^10.4.0",
+        "http-server": "^14.0.0",
+        "parcel": "^2.0.1",
+        "parcel-reporter-prerender": "^2.0.0",
+        "postcss": "^8.1.0",
+        "sharp": "^0.29.1"
+    }
+}
