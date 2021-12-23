@@ -1,4 +1,4 @@
-import { h, FunctionalComponent } from "preact";
+import { h, FunctionalComponent, Fragment } from "preact";
 import { useState, useEffect } from "preact/hooks";
 
 import { sponsorLogoMap } from "/data/sponsors";
@@ -10,20 +10,26 @@ import * as style from "./style.scss";
 /**
  * Renders the sponsors section.
  */
-export const Sponsors: FunctionalComponent = () => {
+export const Sponsors: FunctionalComponent = () => (
+    <section class={style.sponsors}>
+        <h2>Sponsors</h2>
+        {sponsorData.map((sponsor: SponsorCategory) => sponsorItem(sponsor))}
+    </section>
+);
+
+export const sponsorItem = (category: SponsorCategory) => {
     const [sponsors, setSponsors] = useState([]);
     useEffect(() => {
-        const sponsors: Sponsor[] = sponsorData;
-        shuffleArray(sponsorData);
-        setSponsors(sponsors);
+        shuffleArray(category.items);
+        setSponsors(category.items);
     }, []);
 
     return (
-        <section class={style.sponsors}>
-            <h2>Sponsors</h2>
+        <Fragment>
+            <h3>{category.title}</h3>
             <ul class={style.sponsorlist}>
                 {sponsors.map((sponsor: Sponsor, i: number) => (
-                    <li key={sponsor.logoKey} data-type={sponsor.type}>
+                    <li key={sponsor.logoKey} data-type={category.type}>
                         <a
                             href={sponsor.url}
                             target="_blank"
@@ -43,7 +49,7 @@ export const Sponsors: FunctionalComponent = () => {
                     </li>
                 ))}
             </ul>
-        </section>
+        </Fragment>
     );
 };
 
@@ -60,8 +66,13 @@ const shuffleArray = (array: any[]) => {
     }
 };
 
-interface Sponsor {
+interface SponsorCategory {
     type: "organisation" | "primary" | "secondary";
+    title: string;
+    items: Sponsor[];
+}
+
+interface Sponsor {
     logoKey: string;
     url: string;
     title: string;

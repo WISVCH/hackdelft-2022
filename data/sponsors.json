@@ -1,14 +1,18 @@
 [
     {
         "type": "organisation",
-        "logoKey": "ch",
-        "url": "https://wisv.ch/",
-        "title": "W.I.S.V. Christiaan Huygens"
-    },
-    {
-        "type": "organisation",
-        "logoKey": "tudelft",
-        "url": "https://tudelft.nl/",
-        "title": "TU Delft"
+        "title": "Organisation",
+        "items": [
+            {
+                "logoKey": "ch",
+                "url": "https://wisv.ch/",
+                "title": "W.I.S.V. Christiaan Huygens"
+            },
+            {
+                "logoKey": "tudelft",
+                "url": "https://tudelft.nl/",
+                "title": "TU Delft"
+            }
+        ]
     }
 ]

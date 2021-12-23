@@ -1,4 +1,5 @@
 @import "/src/mixins";
+@import "/src/variables";
 
 .header {
     display: flex;
@@ -7,11 +8,40 @@
 
     img {
         height: 4em;
+        margin: 0 auto;
+    }
+
+    span {
+        margin: 16px 2vw;
+
+        h2 {
+            margin: 0;
+            // inline-size: min-content;
+            white-space: nowrap;
+            // overflow-wrap: unset;
+            color: $primary-color;
+        }
+
+        h3 {
+            margin: 0;
+            // inline-size: min-content;
+            white-space: nowrap;
+            color: $secondary-color;
+        }
     }
 }
 
 @include breakpoint(sm) {
     .header {
         flex-direction: row;
+        margin-bottom: 24px;
+
+        img {
+            margin: 0;
+        }
+
+        span {
+            margin: 0 2vw;
+        }
     }
 }

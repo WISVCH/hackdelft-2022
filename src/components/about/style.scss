@@ -1,0 +1,12 @@
+@import "/src/variables";
+
+.about {
+    h2 {
+        color: $secondary-color;
+        margin: 0;
+    }
+
+    p {
+        margin: 8px 0;
+    }
+}

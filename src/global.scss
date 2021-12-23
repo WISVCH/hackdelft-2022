@@ -17,6 +17,20 @@ body {
 
 @include breakpoint(sm) {
     body {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@include breakpoint(md) {
+    body {
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+@include breakpoint(lg) {
+    body {
         width: 60%;
         margin: 0 20%;
     }

@@ -10,5 +10,9 @@ import icon from "url:/static/logo.png?as=webp&width=500";
 export const Header: FunctionalComponent = () => (
     <header class={style.header}>
         <img src={icon} alt="HackDelft" />
+        <span>
+            <h2>Date: April 30th &amp; May 1st</h2>
+            <h3>Location: X Sport &amp; Culture</h3>
+        </span>
     </header>
 );
