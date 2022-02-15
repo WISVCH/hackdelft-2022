@@ -12,7 +12,7 @@ export const Header: FunctionalComponent = () => (
         <img src={icon} alt="HackDelft" />
         <span>
             <h2>Date: April 30th &amp; May 1st</h2>
-            <h3>Location: X Sport &amp; Culture</h3>
+            <h3>Location: TU Delft X</h3>
         </span>
     </header>
 );

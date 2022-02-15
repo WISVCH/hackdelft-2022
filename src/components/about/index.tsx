@@ -9,10 +9,9 @@ export const About: FunctionalComponent = () => (
     <section class={style.about}>
         <h2>About</h2>
         <p>
-            HackDelft is a hackathon organized on April 30th and May 1st 2022 at
-            TU Delft X. It is an all inclusive weekend with multiple challenges
-            you can work on. More information will be shared soon, so stay
-            tuned!
+            Join us on April 30th and May 1st in this all-inclusive 24 hour
+            hackathon where you solve fun challenges provided by our partner
+            companies, win prizes, and have a good time!
         </p>
     </section>
 );

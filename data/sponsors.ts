@@ -2,8 +2,8 @@
 // This is required as the bundler (currently) cannot currently read the images from the JSON URL's directly.
 export const sponsorLogoMap: { [key: string]: URL } = {
     ch: new URL("/static/sponsors/ch.png?as=webp&width=200", import.meta.url),
-    tudelft: new URL(
-        "/static/sponsors/tudelft.png?as=webp&width=200",
+    xtudelft: new URL(
+        "/static/sponsors/xtudelft.png?as=webp&width=200",
         import.meta.url
     ),
 };
