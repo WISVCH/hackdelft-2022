@@ -1,10 +1,10 @@
 @import "/src/variables";
+@import "/src/mixins";
 
 .faq {
     margin: 12px 0;
     padding: 16px;
     background: $primary-color;
-    border-radius: 6px;
 
     h2 {
         margin: 0;
@@ -35,5 +35,11 @@
         font-size: 1.1em;
         line-height: 20px;
         color: $primary-text;
+    }
+}
+
+@include breakpoint(sm) {
+    .faq {
+        border-radius: 6px;
     }
 }
