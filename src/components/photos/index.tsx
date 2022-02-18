@@ -80,7 +80,11 @@ const Photo: FunctionalComponent<PhotoProps> = (props) => {
 
     return (
         <span class={classes} onClick={onClick}>
-            <img src={props.url.toString()} alt="HackDelft 2019 photo" />
+            <img
+                src={props.url.toString()}
+                alt="HackDelft 2019 photo"
+                loading="lazy"
+            />
         </span>
     );
 };

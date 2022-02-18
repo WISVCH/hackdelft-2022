@@ -13,7 +13,8 @@
         "build": "yarn clear-cache && parcel build ./src/index.html --reporter parcel-reporter-prerender && yarn fix-prerender",
         "serve": "yarn build && http-server ./dist -p 8000 -g -b",
         "clear-cache": "rm -rf dist .parcel-cache parcel-bundle-reports",
-        "fix-prerender": "sed -i 's/http:\\/\\/localhost:8000\\//\\//g' dist/index.html"
+        "fix-prerender": "sed -i 's/http:\\/\\/localhost:8000\\//\\//g' dist/index.html",
+        "lighthouse": "lighthouse http://localhost:8000 --view"
     },
     "dependencies": {
         "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -24,6 +25,7 @@
         "@parcel/transformer-sass": "^2.0.1",
         "autoprefixer": "^10.4.0",
         "http-server": "^14.0.0",
+        "lighthouse": "^9.4.0",
         "parcel": "^2.0.1",
         "parcel-reporter-prerender": "^2.0.0",
         "postcss": "^8.1.0",
