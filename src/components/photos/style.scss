@@ -18,10 +18,19 @@
     display: flex;
     overflow-x: scroll;
     gap: 12px;
-    scrollbar-width: none;
+    scrollbar-width: auto;
+    scrollbar-color: $primary-color #fff0;
 
     &::-webkit-scrollbar {
-        display: none;
+        height: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #fff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $primary-color;
     }
 }
 
