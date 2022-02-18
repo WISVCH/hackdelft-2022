@@ -54,8 +54,7 @@ export const Photos: FunctionalComponent = () => {
         <section class={style.photos}>
             <h2>Photo's</h2>
             <p>
-                Take a look at last years edition to get an impression of the
-                event.
+                Take a look at last edition to get an impression of the event.
             </p>
             <div
                 ref={gallery}

@@ -10,9 +10,10 @@
     "type": "module",
     "scripts": {
         "start": "parcel -p 8000 ./src/index.html",
-        "build": "yarn clear-cache && parcel build ./src/index.html --reporter parcel-reporter-prerender",
+        "build": "yarn clear-cache && parcel build ./src/index.html --reporter parcel-reporter-prerender && yarn fix-prerender",
         "serve": "yarn build && http-server ./dist -p 8000 -g -b",
-        "clear-cache": "rm -rf dist .parcel-cache parcel-bundle-reports"
+        "clear-cache": "rm -rf dist .parcel-cache parcel-bundle-reports",
+        "fix-prerender": "sed -i 's/http:\\/\\/localhost:8000\\//\\//g' dist/index.html"
     },
     "dependencies": {
         "@fortawesome/free-brands-svg-icons": "^5.15.4",
