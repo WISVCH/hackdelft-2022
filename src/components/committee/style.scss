@@ -63,5 +63,9 @@
 
     .committee {
         margin-left: 16px;
+
+        tr {
+            border-bottom: none;
+        }
     }
 }

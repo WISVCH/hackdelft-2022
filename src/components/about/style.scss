@@ -10,4 +10,28 @@
     p {
         margin: 8px;
     }
+
+    div {
+        display: flex;
+        justify-content: center;
+
+        a {
+            padding: 0.6em 1.6em;
+            border-radius: 6px;
+            color: $primary-text;
+            background-color: $primary-color;
+            white-space: nowrap;
+            text-decoration: none;
+            cursor: pointer;
+
+            svg {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
