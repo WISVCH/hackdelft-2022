@@ -1,3 +1,4 @@
+@import "/src/variables";
 @import "/src/mixins";
 
 html,
@@ -12,6 +13,8 @@ body {
 body {
     display: flex;
     flex-direction: column;
+    color: $primary-text;
+    background: $background-color;
     font-family: Helvetica, sans-serif;
     line-height: 1.5;
     font-size: 1.1em;
