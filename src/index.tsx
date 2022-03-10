@@ -1,6 +1,6 @@
 import { Fragment, h, render } from "preact";
 
-import { About, FAQ, Footer, Header, Photos, Sponsors } from "/src/components";
+import { About, Committee, FAQ, Footer, Header, Photos, Sponsors } from "/src/components";
 
 import "./global.scss";
 
@@ -15,6 +15,7 @@ const start = (): void => {
             <Photos />
             <Sponsors />
             <FAQ />
+            <Committee />
             <Footer />
         </Fragment>,
         document.body

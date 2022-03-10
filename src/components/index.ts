@@ -1,4 +1,5 @@
 export { About } from "./about";
+export { Committee } from "./committee";
 export { FAQ } from "./faq";
 export { Footer } from "./footer";
 export { Header } from "./header";
