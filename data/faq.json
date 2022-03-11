@@ -8,6 +8,10 @@
         "answer": "Signup is now open until the 21st of April! Use the button on top of the page to buy your tickets. Don't forget to fill in the form at https://wisv.ch/hackdelft after you've bought your ticket!"
     },
     {
+        "question": "What is the maximum group size?",
+        "answer": "There is a limit of four participants per group. Do you have more friends? You can join in multiple groups! Don't know who joins you yet? You can form your groups later, or even at the event itself."
+    },
+    {
         "question": "What if I've never been to a hackathon before?",
         "answer": "HackDelft is a very beginner friendly hackathon, so that is no issue! At the start of the hackathon we will explain how the weekend works, after which you can start hacking with your team."
     },
