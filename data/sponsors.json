@@ -14,5 +14,16 @@
                 "title": "X TU Delft"
             }
         ]
+    },
+    {
+        "type": "secondary",
+        "title": "Supporting",
+        "items": [
+            {
+                "logoKey": "ded",
+                "url": "https://www.dutchenergydrink.nl/",
+                "title": "Dutch Energy Drink"
+            }
+        ]
     }
 ]
