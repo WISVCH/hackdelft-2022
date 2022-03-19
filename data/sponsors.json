@@ -23,6 +23,11 @@
                 "logoKey": "ded",
                 "url": "https://www.dutchenergydrink.nl/",
                 "title": "Dutch Energy Drink"
+            },
+            {
+                "logoKey": "elastic",
+                "url": "https://www.elastic.co/",
+                "title": "Elastic"
             }
         ]
     }
