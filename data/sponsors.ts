@@ -14,4 +14,8 @@ export const sponsorLogoMap: { [key: string]: URL } = {
         "/static/sponsors/ded.png?as=webp&width=200",
         import.meta.url
     ),
+    koro: new URL(
+        "/static/sponsors/koro.png?as=webp&width=200",
+        import.meta.url
+    ),
 };

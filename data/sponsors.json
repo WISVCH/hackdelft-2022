@@ -28,6 +28,11 @@
                 "logoKey": "elastic",
                 "url": "https://www.elastic.co/",
                 "title": "Elastic"
+            },
+            {
+                "logoKey": "koro",
+                "url": "https://koro-handels-gmbh.jobs.personio.de/",
+                "title": "KoRo"
             }
         ]
     }
