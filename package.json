@@ -22,16 +22,16 @@
         "preact": "^10.6.6"
     },
     "devDependencies": {
-        "@parcel/packager-raw-url": "2.3.2",
-        "@parcel/transformer-sass": "^2.3.2",
-        "@parcel/transformer-webmanifest": "^2.0.1",
-        "autoprefixer": "^10.4.2",
+        "@parcel/packager-raw-url": "2.4.0",
+        "@parcel/transformer-sass": "^2.4.0",
+        "@parcel/transformer-webmanifest": "^2.4.0",
         "http-server": "^14.1.0",
         "lighthouse": "^9.4.0",
-        "parcel": "^2.3.2",
+        "parcel": "^2.4.0",
         "parcel-reporter-prerender": "^2.0.0",
-        "postcss": "^8.4.6",
-        "postcss-modules": "^4.3.0",
         "sharp": "^0.29.1"
+    },
+    "@parcel/transformer-css": {
+        "cssModules": true
     }
 }
