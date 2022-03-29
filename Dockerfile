@@ -7,7 +7,6 @@ COPY ./package.json .
 RUN yarn
 
 # Copy source files and build.
-COPY ./.postcssrc .
 COPY ./static ./static
 COPY ./data ./data
 COPY ./src ./src
