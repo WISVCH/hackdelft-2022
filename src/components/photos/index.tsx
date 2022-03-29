@@ -52,7 +52,7 @@ export const Photos: FunctionalComponent = () => {
 
     return (
         <section class={style.photos}>
-            <h2>Photo's</h2>
+            <h2>Photos</h2>
             <p>
                 Take a look at last edition to get an impression of the event.
             </p>
