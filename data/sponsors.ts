@@ -6,14 +6,12 @@ export const sponsorLogoMap: { [key: string]: URL } = {
         "/static/sponsors/xtudelft.png?as=webp&width=200",
         import.meta.url
     ),
+    cgi: new URL("/static/sponsors/cgi.png?as=webp&width=200", import.meta.url),
     elastic: new URL(
         "/static/sponsors/elastic.png?as=webp&width=200",
         import.meta.url
     ),
-    ded: new URL(
-        "/static/sponsors/ded.png?as=webp&width=200",
-        import.meta.url
-    ),
+    ded: new URL("/static/sponsors/ded.png?as=webp&width=200", import.meta.url),
     koro: new URL(
         "/static/sponsors/koro.png?as=webp&width=200",
         import.meta.url

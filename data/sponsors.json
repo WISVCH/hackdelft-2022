@@ -16,6 +16,17 @@
         ]
     },
     {
+        "type": "primary",
+        "title": "Primary",
+        "items": [
+            {
+                "logoKey": "cgi",
+                "url": "https://www.cgi.com/en",
+                "title": "CGI"
+            }
+        ]
+    },
+    {
         "type": "secondary",
         "title": "Supporting",
         "items": [
