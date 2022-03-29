@@ -2,7 +2,10 @@ import { h, FunctionalComponent } from "preact";
 
 import * as style from "./style.scss";
 
-const picture = new URL("/static/committee.png", import.meta.url);
+const picture = new URL(
+    "/static/committee.png?as=webp&width=1200",
+    import.meta.url
+);
 
 /**
  * Renders the committee section.
