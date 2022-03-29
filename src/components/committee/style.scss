@@ -26,7 +26,13 @@
 
     h2 {
         color: $primary-color;
-        margin-bottom: 0.2em;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        color: $secondary-color;
+        margin-top: 0;
+        padding: 0;
     }
 
     table {
@@ -46,7 +52,7 @@
     th {
         float: left;
         display: contents;
-        color: $secondary-color;
+        color: mix($primary-color, $primary-text, 80%);
     }
 
     td {
