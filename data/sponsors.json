@@ -44,6 +44,16 @@
                 "logoKey": "koro",
                 "url": "https://koro-handels-gmbh.jobs.personio.de/",
                 "title": "KoRo"
+            },
+            {
+                "logoKey": "bit",
+                "url": "https://wearebit.com/join-us/",
+                "title": "Bit"
+            },
+            {
+                "logoKey": "bwl",
+                "url": "https://www.biteswelove.nl/",
+                "title": "Bites We Love"
             }
         ]
     }
