@@ -16,9 +16,21 @@ export const About: FunctionalComponent = () => (
             hackathon where you solve fun challenges provided by our partner
             companies, win prizes, and have a good time!
         </p>
+        <p>
+            Tickets will be sold until the 22nd of April, so make sure to buy a
+            ticket now! Then fill in the form{" "}
+            <a href="https://wisv.ch/hackdelft" target="_blank">
+                here
+            </a>
+            .
+        </p>
         <div>
-            <a href="https://ch.tudelft.nl/activities/event/2022/hackdelft-3/" target="_blank">
-                <Icon icon={faTicket} pad />Buy Your Ticket Now!
+            <a
+                href="https://ch.tudelft.nl/activities/event/2022/hackdelft-3/"
+                target="_blank"
+            >
+                <Icon icon={faTicket} pad />
+                Buy Your Ticket Now!
             </a>
         </div>
     </section>
