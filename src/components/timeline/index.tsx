@@ -12,7 +12,11 @@ import * as style from "./style.scss";
  */
 export const Timeline: FunctionalComponent = () => (
     <section class={style.timeline}>
-        <h2>Timeline</h2>
+        <h2>Schedule</h2>
+        <p>
+            This is an indication of the schedule of the event! It is an
+            indication, and therefore subject to change.
+        </p>
         <div class={style.container}>
             <div>
                 <h3>Saturday</h3>
