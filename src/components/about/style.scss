@@ -1,3 +1,4 @@
+@import "/src/mixins";
 @import "/src/variables";
 
 .about {
@@ -17,13 +18,13 @@
 
     div {
         display: flex;
+        flex-direction: column;
         justify-content: center;
 
         a {
+            margin: 8px 16px;
             padding: 0.6em 1.6em;
             border-radius: 6px;
-            color: $primary-text;
-            background-color: $primary-color;
             white-space: nowrap;
             text-decoration: none;
             cursor: pointer;
@@ -36,6 +37,24 @@
             &:hover {
                 text-decoration: underline;
             }
+        }
+    }
+}
+
+.tickets {
+    color: $primary-text;
+    background-color: $primary-color;
+}
+
+.discord {
+    color: $primary-text;
+    background-color: $discord-color;
+}
+
+@include breakpoint(sm) {
+    .about {
+        div {
+            flex-direction: row;
         }
     }
 }

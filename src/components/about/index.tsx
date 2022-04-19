@@ -1,5 +1,6 @@
 import { h, FunctionalComponent } from "preact";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 import { Icon } from "/src/components";
 
@@ -26,11 +27,20 @@ export const About: FunctionalComponent = () => (
         </p>
         <div>
             <a
+                class={style.tickets}
                 href="https://ch.tudelft.nl/activities/event/2022/hackdelft-3/"
                 target="_blank"
             >
                 <Icon icon={faTicket} pad />
                 Buy Your Ticket Now!
+            </a>
+            <a
+                class={style.discord}
+                href="https://discord.gg/rB2ucUaFnc"
+                target="_blank"
+            >
+                <Icon icon={faDiscord} pad />
+                Join Our Discord!
             </a>
         </div>
     </section>
