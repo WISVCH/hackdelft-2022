@@ -5,7 +5,11 @@
     },
     {
         "question": "How can I sign up for HackDelft?",
-        "answer": "Signup is now open until the 21st of April! Use the button on top of the page to buy your tickets. Don't forget to fill in the form at https://wisv.ch/hackdelft after you've bought your ticket!"
+        "answer": "Unfortunately we are completely sold out! Use the button on top of the page to sign up for the waiting list."
+    },
+    {
+        "question": "What languages can I use during the event?",
+        "answer": "You can use any language or tool you want during the event!"
     },
     {
         "question": "What is the maximum group size?",

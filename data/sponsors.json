@@ -23,6 +23,11 @@
                 "logoKey": "cgi",
                 "url": "https://www.cgi.com/en",
                 "title": "CGI"
+            },
+            {
+                "logoKey": "ind",
+                "url": "https://ind.nl/over-ind/werken-bij-de-IND/Paginas/default.aspx",
+                "title": "Immigratie- en Naturalisatiedienst"
             }
         ]
     },

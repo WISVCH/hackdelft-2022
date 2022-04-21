@@ -18,4 +18,5 @@ export const sponsorLogoMap: { [key: string]: URL } = {
     ),
     bit: new URL("/static/sponsors/bit.png?as=webp&width=200", import.meta.url),
     bwl: new URL("/static/sponsors/bwl.png?as=webp&width=200", import.meta.url),
+    ind: new URL("/static/sponsors/ind.png?as=webp&width=200", import.meta.url),
 };
