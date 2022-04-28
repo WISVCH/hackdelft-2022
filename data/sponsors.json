@@ -59,6 +59,11 @@
                 "logoKey": "bwl",
                 "url": "https://www.biteswelove.nl/",
                 "title": "Bites We Love"
+            },
+            {
+                "logoKey": "kleine",
+                "url": "https://www.dekleineconsultant.nl/",
+                "title": "De Kleine Consultant"
             }
         ]
     }
