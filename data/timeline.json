@@ -28,6 +28,11 @@
     ],
     "sunday": [
         {
+            "time": "7:00",
+            "name": "Morning Gymnastics",
+            "description": "Get a fresh start of the day with Cas and Berend"
+        },
+        {
             "time": "8:00 - 10:00",
             "name": "Breakfast",
             "description": ""
@@ -36,6 +41,11 @@
             "time": "± 10:00",
             "name": "Workshop - Bit",
             "description": "Our supporting partner Bit has a talk prepared!"
+        },
+        {
+            "time": "± 12:00",
+            "name": "Pitch Workshop",
+            "description": "De Kleine Consultant will come and prepare you for your pitch at 14:00!"
         },
         {
             "time": "12:30 - 14:30",
